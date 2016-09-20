@@ -1,0 +1,33 @@
+{
+  "data": {
+    "user": [
+      {
+        "name": "harjeet",
+        "createdAt": "2016-09-20T16:23:57.266Z",
+        "updatedAt": "2016-09-20T16:23:57.266Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 1
+    }
+  }
+}
